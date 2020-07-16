@@ -13,6 +13,7 @@
 		CA167C4624C0B0B200C1D70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA167C4424C0B0B200C1D70B /* Main.storyboard */; };
 		CA167C4824C0B0B400C1D70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA167C4724C0B0B400C1D70B /* Assets.xcassets */; };
 		CA167C4B24C0B0B400C1D70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA167C4924C0B0B400C1D70B /* LaunchScreen.storyboard */; };
+		CA167C5424C0B23400C1D70B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA167C5324C0B23400C1D70B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA167C4724C0B0B400C1D70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA167C4A24C0B0B400C1D70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA167C4C24C0B0B400C1D70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA167C5324C0B23400C1D70B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA167C5424C0B23400C1D70B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				CA167C3D24C0B0B200C1D70B /* 54321 Breathe */,
 				CA167C3C24C0B0B200C1D70B /* Products */,
+				CA167C5224C0B23400C1D70B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				CA167C4C24C0B0B400C1D70B /* Info.plist */,
 			);
 			path = "54321 Breathe";
+			sourceTree = "<group>";
+		};
+		CA167C5224C0B23400C1D70B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA167C5324C0B23400C1D70B /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVPV8WR9Y3;
 				INFOPLIST_FILE = "54321 Breathe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBarnes.-4321-Breathe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVPV8WR9Y3;
 				INFOPLIST_FILE = "54321 Breathe/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PaulBarnes.-4321-Breathe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
