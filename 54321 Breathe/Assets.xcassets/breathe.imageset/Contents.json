@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "adult-air-beautiful-beauty-321578.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "adult-air-beautiful-beauty-321577.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "adult-air-beautiful-beauty-321576.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

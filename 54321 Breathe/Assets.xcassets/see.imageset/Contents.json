@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "person-holding-camera-lens-in-the-middle-of-street-under-861235.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "person-holding-camera-lens-in-the-middle-of-street-under-861234.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "person-holding-camera-lens-in-the-middle-of-street-under-861233.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "close-up-photo-of-a-person-s-hand-touching-body-of-water-1669607.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "close-up-photo-of-a-person-s-hand-touching-body-of-water-1669606.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "close-up-photo-of-a-person-s-hand-touching-body-of-water-1669605.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
