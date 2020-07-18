@@ -62,12 +62,12 @@
 		CA167C3D24C0B0B200C1D70B /* 54321 Breathe */ = {
 			isa = PBXGroup;
 			children = (
+				CA1A273224C211DD00E3FE09 /* Assets */,
 				CA167C5524C135E800C1D70B /* View Controllers */,
 				CA167C3E24C0B0B200C1D70B /* AppDelegate.swift */,
 				CA167C4024C0B0B200C1D70B /* SceneDelegate.swift */,
 				CA167C4224C0B0B200C1D70B /* ViewController.swift */,
 				CA167C4424C0B0B200C1D70B /* Main.storyboard */,
-				CA167C4724C0B0B400C1D70B /* Assets.xcassets */,
 				CA167C4924C0B0B400C1D70B /* LaunchScreen.storyboard */,
 				CA167C4C24C0B0B400C1D70B /* Info.plist */,
 			);
@@ -88,6 +88,14 @@
 				CA167C5824C1373D00C1D70B /* InstructionsViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CA1A273224C211DD00E3FE09 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CA167C4724C0B0B400C1D70B /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
